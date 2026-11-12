@@ -1,0 +1,50 @@
+VERIFIKASI KEAKURATAN DATA JSON
+Project: EduFunnel Dashboard
+
+1. Total Pengunjung
+JSON: 1000
+Dashboard: 1000
+Status: VALID
+
+2. Total Daftar
+JSON: 415
+Dashboard: 415
+Status: VALID
+
+3. Total Test
+JSON: 208
+Dashboard: 208
+Status: VALID
+
+4. Total Daftar Ulang
+JSON: 104
+Dashboard: 104
+Status: VALID
+
+5. Total Berkuliah
+JSON: 51
+Dashboard: 51
+Status: VALID
+
+6. Channel Google Ads
+Visitors: 256
+Conversion Rate: 5.47%
+Status: VALID
+
+7. Channel Instagram
+Visitors: 266
+Conversion Rate: 5.26%
+Status: VALID
+
+8. Channel Twitter/X
+Visitors: 227
+Conversion Rate: 4.41%
+Status: VALID
+
+9. Channel Website
+Visitors: 251
+Conversion Rate: 5.18%
+Status: VALID
+
+KESIMPULAN:
+Semua data pada dashboard telah sesuai dengan data_funnel.json.

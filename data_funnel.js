@@ -1,0 +1,256 @@
+window.eduFunnelData = {
+  metadata: {
+    project_name: "EduFunnel",
+    period: "2025",
+    generated_by: "Frontend Dashboard System"
+  },
+  summary: {
+    total_pengunjung: 1000,
+    total_daftar: 415,
+    total_test: 208,
+    total_daftar_ulang: 104,
+    total_berkuliah: 51
+  },
+  metric_cards: [
+    {
+      title: "Total Pengunjung",
+      value: 1000
+    },
+    {
+      title: "Total Berkuliah",
+      value: 51
+    },
+    {
+      title: "Conversion Rate",
+      value: 5.1
+    }
+  ],
+  funnel_stages: [
+    "Pengunjung",
+    "Daftar",
+    "Test",
+    "Daftar Ulang",
+    "Berkuliah"
+  ],
+  funnel_data: [
+    1000,
+    415,
+    208,
+    104,
+    51
+  ],
+  daily_channel_traffic: [
+    { date: "2025-12-25", channel: "Google Ads", pengunjung: 1, daftar: 1, test: 1, daftar_ulang: 0, berkuliah: 1 },
+    { date: "2025-12-25", channel: "Instagram", pengunjung: 1, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-25", channel: "Twitter/X", pengunjung: 1, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-25", channel: "Website", pengunjung: 0, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-26", channel: "Google Ads", pengunjung: 1, daftar: 1, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-26", channel: "Instagram", pengunjung: 1, daftar: 1, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-26", channel: "Twitter/X", pengunjung: 0, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-26", channel: "Website", pengunjung: 1, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-27", channel: "Google Ads", pengunjung: 1, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-27", channel: "Instagram", pengunjung: 1, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-27", channel: "Twitter/X", pengunjung: 1, daftar: 1, test: 1, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-27", channel: "Website", pengunjung: 0, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-28", channel: "Google Ads", pengunjung: 1, daftar: 1, test: 1, daftar_ulang: 1, berkuliah: 0 },
+    { date: "2025-12-28", channel: "Instagram", pengunjung: 1, daftar: 1, test: 1, daftar_ulang: 1, berkuliah: 0 },
+    { date: "2025-12-28", channel: "Twitter/X", pengunjung: 0, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-28", channel: "Website", pengunjung: 1, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-29", channel: "Google Ads", pengunjung: 1, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-29", channel: "Instagram", pengunjung: 1, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-29", channel: "Twitter/X", pengunjung: 1, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-29", channel: "Website", pengunjung: 0, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-30", channel: "Google Ads", pengunjung: 1, daftar: 1, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-30", channel: "Instagram", pengunjung: 1, daftar: 1, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-30", channel: "Twitter/X", pengunjung: 0, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-30", channel: "Website", pengunjung: 1, daftar: 1, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-31", channel: "Google Ads", pengunjung: 1, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-31", channel: "Instagram", pengunjung: 0, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-31", channel: "Twitter/X", pengunjung: 1, daftar: 1, test: 0, daftar_ulang: 0, berkuliah: 0 },
+    { date: "2025-12-31", channel: "Website", pengunjung: 1, daftar: 0, test: 0, daftar_ulang: 0, berkuliah: 0 }
+  ],
+  sources: [
+    {
+      name: "Google Ads",
+      pengunjung: 256,
+      daftar: 103,
+      test: 52,
+      daftar_ulang: 26,
+      berkuliah: 14,
+      conversion_rate: 5.47,
+      drop_off: 94.53,
+      progression_rates: {
+        pengunjung_to_daftar: 40.2,
+        daftar_to_test: 50.5,
+        test_to_daftar_ulang: 50.0,
+        daftar_ulang_to_berkuliah: 53.8
+      },
+      attrition_rates: {
+        pengunjung_to_daftar: 59.8,
+        daftar_to_test: 49.5,
+        test_to_daftar_ulang: 50.0,
+        daftar_ulang_to_berkuliah: 46.2
+      },
+      ranking: 1,
+      status: "Top"
+    },
+    {
+      name: "Instagram",
+      pengunjung: 266,
+      daftar: 111,
+      test: 55,
+      daftar_ulang: 28,
+      berkuliah: 14,
+      conversion_rate: 5.26,
+      drop_off: 94.74,
+      progression_rates: {
+        pengunjung_to_daftar: 41.7,
+        daftar_to_test: 49.5,
+        test_to_daftar_ulang: 50.9,
+        daftar_ulang_to_berkuliah: 50.0
+      },
+      attrition_rates: {
+        pengunjung_to_daftar: 58.3,
+        daftar_to_test: 50.5,
+        test_to_daftar_ulang: 49.1,
+        daftar_ulang_to_berkuliah: 50.0
+      },
+      ranking: 2,
+      status: "Stable"
+    },
+    {
+      name: "Twitter/X",
+      pengunjung: 227,
+      daftar: 94,
+      test: 47,
+      daftar_ulang: 23,
+      berkuliah: 10,
+      conversion_rate: 4.41,
+      drop_off: 95.59,
+      progression_rates: {
+        pengunjung_to_daftar: 41.4,
+        daftar_to_test: 50.0,
+        test_to_daftar_ulang: 48.9,
+        daftar_ulang_to_berkuliah: 43.5
+      },
+      attrition_rates: {
+        pengunjung_to_daftar: 58.6,
+        daftar_to_test: 50.0,
+        test_to_daftar_ulang: 51.1,
+        daftar_ulang_to_berkuliah: 56.5
+      },
+      ranking: 4,
+      status: "Alert"
+    },
+    {
+      name: "Website",
+      pengunjung: 251,
+      daftar: 107,
+      test: 54,
+      daftar_ulang: 27,
+      berkuliah: 13,
+      conversion_rate: 5.18,
+      drop_off: 94.82,
+      progression_rates: {
+        pengunjung_to_daftar: 42.6,
+        daftar_to_test: 50.5,
+        test_to_daftar_ulang: 50.0,
+        daftar_ulang_to_berkuliah: 48.1
+      },
+      attrition_rates: {
+        pengunjung_to_daftar: 57.4,
+        daftar_to_test: 49.5,
+        test_to_daftar_ulang: 50.0,
+        daftar_ulang_to_berkuliah: 51.9
+      },
+      ranking: 3,
+      status: "Stable"
+    }
+  ],
+  monthly_channel_traffic: [
+    {
+      month: "Jan",
+      google_ads: 19,
+      instagram: 18,
+      twitter_x: 23,
+      website: 18
+    },
+    {
+      month: "Feb",
+      google_ads: 25,
+      instagram: 22,
+      twitter_x: 23,
+      website: 20
+    },
+    {
+      month: "Mar",
+      google_ads: 14,
+      instagram: 16,
+      twitter_x: 14,
+      website: 16
+    },
+    {
+      month: "Apr",
+      google_ads: 18,
+      instagram: 23,
+      twitter_x: 21,
+      website: 29
+    },
+    {
+      month: "May",
+      google_ads: 29,
+      instagram: 23,
+      twitter_x: 24,
+      website: 20
+    },
+    {
+      month: "Jun",
+      google_ads: 29,
+      instagram: 13,
+      twitter_x: 15,
+      website: 27
+    },
+    {
+      month: "Jul",
+      google_ads: 12,
+      instagram: 25,
+      twitter_x: 17,
+      website: 21
+    },
+    {
+      month: "Aug",
+      google_ads: 24,
+      instagram: 26,
+      twitter_x: 23,
+      website: 31
+    },
+    {
+      month: "Sep",
+      google_ads: 19,
+      instagram: 27,
+      twitter_x: 15,
+      website: 21
+    },
+    {
+      month: "Oct",
+      google_ads: 24,
+      instagram: 26,
+      twitter_x: 15,
+      website: 14
+    },
+    {
+      month: "Nov",
+      google_ads: 15,
+      instagram: 21,
+      twitter_x: 21,
+      website: 15
+    },
+    {
+      month: "Dec",
+      google_ads: 28,
+      instagram: 26,
+      twitter_x: 16,
+      website: 19
+    }
+  ]
+};
